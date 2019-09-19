@@ -3,6 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>E</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>staneee</Authors>
+    <PackageProjectUrl>https://github.com/staneee/E.WebHostExtensions</PackageProjectUrl>
+    <Version>0.0.1</Version>
+    <Description>对 aspnet core IWebHost 的扩展库</Description>
   </PropertyGroup>
 
   <ItemGroup>
