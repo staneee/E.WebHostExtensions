@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E.WebHostExtensions", "src\E.WebHostExtensions\E.WebHostExtensions.csproj", "{7DEF04F4-933A-402C-A712-E56EE8DE2A83}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC968CE7-750D-40D3-A395-7DAFA69359FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EFF406C5-A2A0-4AFA-B942-2B80AE4FA2B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "test\TestApp\TestApp.csproj", "{01E9E718-1CCB-43B2-B52C-67A1587E0909}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{7DEF04F4-933A-402C-A712-E56EE8DE2A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DEF04F4-933A-402C-A712-E56EE8DE2A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DEF04F4-933A-402C-A712-E56EE8DE2A83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E9E718-1CCB-43B2-B52C-67A1587E0909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E9E718-1CCB-43B2-B52C-67A1587E0909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E9E718-1CCB-43B2-B52C-67A1587E0909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E9E718-1CCB-43B2-B52C-67A1587E0909}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7DEF04F4-933A-402C-A712-E56EE8DE2A83} = {FC968CE7-750D-40D3-A395-7DAFA69359FC}
+		{01E9E718-1CCB-43B2-B52C-67A1587E0909} = {EFF406C5-A2A0-4AFA-B942-2B80AE4FA2B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1F4D4C0-2B5C-4040-AD60-4C51005D2208}
